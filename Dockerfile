@@ -20,6 +20,8 @@ ARG PACKAGES="\
   vim \
   yarn \
   gcompat \
+  libffi-dev \
+  openssl-dev \
 "
 
 RUN apk update \
