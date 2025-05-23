@@ -22,6 +22,8 @@ services:
       RAILS_PORT: 3000
       RUBYOPT: -W:no-deprecated -W:no-experimental
       DATABASE_HOST: db
+      DATABASE_USERNAME: postgres
+      DATABASE_PASSWORD: postgres
       RAILS_ENV: development
     command: bundle exec rails server -b '0.0.0.0' -p 3000
     healthcheck:
